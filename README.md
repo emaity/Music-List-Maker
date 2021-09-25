@@ -14,3 +14,9 @@ If the file has built-in meta data, then the program lists the music with the fo
 If the file does not have either a title or artist specified, then the program copies the file name into the text file as is.
 
 If the program encounters a UnicodeEncodeError, as is the case with non-english characters, then the file name is saved onto the clipboard instead.
+
+
+# Executable Folder
+This folder contains the windows application version of the python file, made using py2exe.
+
+Running the .exe in this folder allows it to run without needing python installed on the user's computer.
